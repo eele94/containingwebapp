@@ -1,0 +1,484 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Containing</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Containing, 2014, stats, statistics, nhl, school, leeuwarden, project, informatica" />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript" src="js/Chart.min.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);	
+				});
+			});
+		</script>
+		 <!---- start-smooth-scrolling---->
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- webfonts -->
+		<link href='css/webfont.css'' rel='stylesheet' type='text/css'>
+		<link href='css/webfont2.css' rel='stylesheet' type='text/css'>
+		<!-- webfonts -->
+	</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div id="home" class="header">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- logo -->
+					<div class="logo">
+						<a href="#"><img src="images/logo.png" title="containing 2014" /></a>
+					</div>
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav">
+						<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+						</div>
+						 <div class="box" id="box">
+							 <div class="box_content">        					                         
+								<div class="box_content_center">
+								 	<div class="form_content">
+								 		<a class="nav-logo" href="#"><img src="images/logo.png" title="containing 2014" /></a>
+										<div class="menu_box_list">
+											<ul>
+											
+												<li class="active"><a href="#home" class="scroll"><span>Home</span></a></li>
+												<li><a href="#components" class="scroll"><span>Components</span></a></li>
+												<li><a href="#control-panel" class="scroll"><span>Control Panel</span></a></li>
+												<li><a href="#statistics" class="scroll"><span>Statistics</span></a></li>
+												<li><a href="#media" class="scroll"><span>Media</span></a></li>
+												<div class="clear"> </div>
+											</ul>
+										</div>
+										<a class="boxclose" id="boxclose"> <span> </span></a>
+									</div>                                  
+								</div> 	
+							</div> 
+						</div>       	  
+					</div>
+					<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("fast");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+					<!---//End-click-drop-down-menu----->
+					<!--top-nav---->
+					<div class="clearfix"> </div>
+				</div>
+				<!-- /top-hedader -->
+				<!-- welcome-note -->
+				<div class="welcome-note">
+					<!-- 
+					<div class="sreen-gallery-cursual">
+							 <!-- requried-jsfiles-for owl -->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+									    $(document).ready(function() {
+									      $("#owl-demo").owlCarousel({
+									        items : 1,
+									        lazyLoad : false,
+									        autoPlay : true,
+									        navigation : false,
+									        navigationText :  false,
+									        pagination : true,
+									      });
+									    });
+									  </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                	<div class="note">
+											<h1>Hello, we're <span>Gruppe Sechs</span> <p>Project <span>Containg 2014</span></p></h1>
+										</div>
+					                </div>
+									<div class="item">
+					                	<div class="note">
+											<h1>Hello, we're <span>Gruppe Sechs</span> <p>Project <span>Containg 2014</span></p></h1>
+										</div>
+					                </div>
+					                 <div class="item">
+					                	<div class="note">
+											<h1>Hello, we're <span>Gruppe Sechs</span> <p>Project <span>Containg 2014</span></p></h1>
+										</div>
+					                </div>
+				              </div>
+						<!--//sreen-gallery-cursual---->	
+				</div>
+				<!-- welcome-note -->
+				<!-- top-grids -->
+				<div class="top-grids">
+				<!-- class grid-active when hover -->
+					<div class="col-md-3 top-grid text-center">
+						<span class="icon1"> </span>
+						<h3>.Control</h3>
+						<a class="t-btn scroll" href="#control-panel">Go to control panel</a>
+					</div>
+					<div class="col-md-3 top-grid text-center">
+						<span class="icon2"> </span>
+						<h3>.Statistics</h3>
+						<a class="t-btn scroll" href="#statistics">Go to statistics</a>
+					</div>
+					<div class="col-md-3 top-grid text-center">
+						<span class="icon3"> </span>
+						<h3>.Components</h3>
+						<a class="t-btn scroll" href="#components">Go to components</a>
+					</div>
+					<div class="col-md-3 top-grid text-center">
+						<span class="icon4"> </span>
+						<h3>.Media</h3>
+						<a class="t-btn scroll" href="#media">Go to media</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!-- top-grids -->
+			</div>
+			</div>
+			<!-- /header -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- components -->
+			<div id="components" class="services">
+				<div class="container">
+					<div class="service-head text-center">
+						<h3>Project <span>Containing 2014</span></h3>
+						<p>Components</p>
+					</div>
+					<!-- services-grids -->
+					<div class="services-grids">
+						<div class="col-md-6 services-grid">
+							<div class="services-grid-icon">
+								<span class="s-icon4"> </span>
+							</div>
+							<div class="services-grid-info">
+								<h4>Controller</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+							<div class="col-md-6 services-grid">
+							<div class="services-grid-icon">
+								<span class="s-icon3"> </span>
+							</div>
+							<div class="services-grid-info">
+								<h4>Simulation</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+							<div class="col-md-6 services-grid">
+							<div class="services-grid-icon">
+								<span class="s-icon1"> </span>
+							</div>
+							<div class="services-grid-info">
+								<h4>Web app</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!-- components-grids -->
+				</div>
+			</div>
+			<!-- control panel -->
+			<div id="control-panel" class="services">
+				<div class="container">
+					<div class="service-head text-center">
+						<h3>Simulation <span>Control Panel</span></h3>
+					</div>
+			<!-- control panel -grids -->
+					<div class="services-grids">
+					<div class="controldiv">
+							<div class="t-btnplayer" id="btn_play"><span class="icon5"> </span>
+							<h3>start</h3>
+							</div>
+							<div class="t-btnplayer" id="btn_reset"><span class="icon7"> </span>
+							<h3>reset</h3>
+							</div>
+							<h2 id="sim-running" class="text-center"></h2>
+							<script> 
+								var d = new Date();
+								var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+								$("#sim-running").text("Simulation running - "+time);
+								
+								// TODO get playing logica
+								var playing = false;
+								
+								$(document).ready(function(){
+									$("#btn_play").click(function(){
+										// change play btn to pause icon
+										if(playing){
+											playing = false;
+											$("#btn_play span").addClass('icon5').removeClass('icon6');
+										} 
+										else{
+											$("#btn_play span").addClass('icon6').removeClass('icon5');
+											playing = true;
+										}
+										
+										// TODO play / pause logica
+									});
+									
+									$("#btn_reset").click(function(){
+										// TODO reset logica
+									});
+								});
+							</script>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<!-- control panels-grids -->
+					</div>
+				</div>
+				<!-- statistics -->
+			<div id="statistics" class="services">
+				<div class="container">
+					<div class="service-head text-center">
+						<h3>Harbor <span>Statistics</span></h3>
+					</div>
+			<!-- statistics -grids -->
+					<div class="services-grids">
+					<p class="text-center">Bar graph</p>
+						<div style="width:70%; padding-left: 0;    padding-right: 0;    margin-left: auto;    margin-right: auto;    display: block; ">
+							<canvas id="canvas"></canvas>
+						</div>
+					<p class="text-center">Line graph</p>
+						<div style="width:70%; padding-left: 0;    padding-right: 0;    margin-left: auto;    margin-right: auto;    display: block; ">
+								<canvas id="canvas2"></canvas>
+						</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!-- statistics-grids -->
+					</div>
+				</div>
+				<script>
+						var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+
+						var barChartData = {
+							labels : ["January","February","March","April","May","June","July"],
+							datasets : [
+								{
+									fillColor : "rgba(220,220,220,0.5)",
+									strokeColor : "rgba(220,220,220,0.8)",
+									highlightFill: "rgba(220,220,220,0.75)",
+									highlightStroke: "rgba(220,220,220,1)",
+									data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+								},
+								{
+									fillColor : "rgba(151,187,205,0.5)",
+									strokeColor : "rgba(151,187,205,0.8)",
+									highlightFill : "rgba(151,187,205,0.75)",
+									highlightStroke : "rgba(151,187,205,1)",
+									data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+								}
+							]
+
+						}
+						
+						var lineChartData = {
+							labels : ["January","February","March","April","May","June","July"],
+							datasets : [
+								{
+									label: "My First dataset",
+									fillColor : "rgba(220,220,220,0.2)",
+									strokeColor : "rgba(220,220,220,1)",
+									pointColor : "rgba(220,220,220,1)",
+									pointStrokeColor : "#fff",
+									pointHighlightFill : "#fff",
+									pointHighlightStroke : "rgba(220,220,220,1)",
+									data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+								},
+								{
+									label: "My Second dataset",
+									fillColor : "rgba(151,187,205,0.2)",
+									strokeColor : "rgba(151,187,205,1)",
+									pointColor : "rgba(151,187,205,1)",
+									pointStrokeColor : "#fff",
+									pointHighlightFill : "#fff",
+									pointHighlightStroke : "rgba(151,187,205,1)",
+									data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+								}
+							]
+						}
+
+			window.onload = function(){
+				// line graph
+				var ctx = document.getElementById("canvas").getContext("2d");
+								window.myBar = new Chart(ctx).Bar(barChartData, {
+									responsive : true
+								});
+				// donut			
+				var ctxLine = document.getElementById("canvas2").getContext("2d");
+								window.myLine = new Chart(ctxLine).Line(lineChartData, {
+									responsive: true
+								});
+			}
+				</script>
+			</div>
+			<!-- media -->
+			<div id="media" class="services">
+				<div class="container">
+					<div class="service-head text-center">
+						<h3>Project <span>Media</span></h3>
+					</div>
+			<!-- media-grids -->
+					<div class="services-grids">
+						<div id="owl-demo4" class="owl-carousel owl-carousel2">
+						 <div class="item text-center">
+								<img src="images/media1.jpg" alt="media image" />
+					     </div>
+						 <div class="item text-center">
+								<img src="images/media2.jpg" alt="media image" />
+					     </div>
+						 <div class="item text-center">
+								<img src="images/media2.jpg" alt="media image" />
+					     </div>
+						 <div class="item text-center">
+								<img src="images/media2.jpg" alt="media image" />
+					     </div>
+					 </div>
+						<div class="clearfix"> </div>
+					</div>
+					<!-- media panels-grids -->
+					</div>
+				</div>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+				$(document).ready(function() {
+					$("#owl-demo4").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			<div class="feedback">
+				<div class="container">
+					<div id="owl-demo3" class="owl-carousel owl-carousel1">
+					     <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"One small positive thought in the morning can change your whole entire day."</p>
+								<h4>Eele Sikkes,<span> Gruppe Sechs</span></h4>
+							</div>
+					     </div>
+					     <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"I FOUND IT LEUK!!1!"</p>
+								<h4>Jelmer Hulsman,<span> Gruppe Sechs</span></h4>
+							</div>
+					     </div>
+					     <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"Beetje jammer dit..."</p>
+								<h4>Lukas Boonstra,<span> Gruppe Sechs</span></h4>
+							</div>
+					     </div>
+						 <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"Awsom ved!@11!"</p>
+								<h4>Eden Cox,<span> Gruppe Sechs</span></h4>
+							</div>
+					     </div>
+						 <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"Dikke prima"</p>
+								<h4>Joep Sijtsma,<span> Gruppe Sechs</span></h4>
+							</div>
+					     </div>
+						 <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"How ebola affected my life by this project.."</p>
+								<h4>Wouter Brinksma,<span> Gruppe Sechs</span></h4>
+							</div>
+					     </div>
+					 </div>
+				</div>
+			<!-- Feedback -->
+			</div>
+			
+			<!-- footer -->
+			<div class="footer">
+				<div class="container">
+					<p>Containg 2014 <a href="http://containing.eele.nl">Gruppe Sechs</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!-- footer -->
+		<!-- /container -->
+	</body>
+</html>
+

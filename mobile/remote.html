@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Containing</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		<script>
+		window.setInterval(function(){getStatistics()},1000);
+		
+		function getStatistics(){
+			var xmlhttp = new XMLHttpRequest();
+			var url = "http://containing.eele.nl/data_json.php";
+			xmlhttp.onreadystatechange=function() {
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					myFunction(xmlhttp.responseText);
+				}
+			}
+			xmlhttp.open("GET", url, true);
+			xmlhttp.send();
+		}
+
+		function myFunction(response) {
+			var arr = JSON.parse(response);
+			var i;
+			var out = "<table>";
+
+			for(i = 0; i < arr.length; i++) {
+				out += "<tr><td>" +
+				arr[i].containers_buitenvaart +
+				"</td><td>" +
+				arr[i].containers_binnenvaart +
+				"</td><td>" +
+				arr[i].containers_trein +
+				"</td><td>" +
+				arr[i].actief_agvs +
+				"</td></tr>";
+			}
+			out += "</table>";
+			document.getElementById("id01").innerHTML = out;
+		}
+		</script>
+		<div id="id01">
+		</div>
+	</body>
+</html>
+
